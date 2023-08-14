@@ -1,0 +1,7 @@
+.greenBullets li::before {
+    content: "•"; /* Bullet point character */
+    color: #8DB445; /* Custom color */
+    margin-right: 0.88rem; /* Adjust spacing */
+    min-width: 0.4375rem;
+    min-height: 0.4375rem;
+  }

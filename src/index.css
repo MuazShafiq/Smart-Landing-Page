@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+    font-family: "Youlit";
+    src: url("/fonts/Youlit.ttf");
+  }
+
+@font-face {
+    font-family: "Montserrat";
+    src: url("/fonts/Montserrat.ttf");
+  }
+
+@font-face {
+    font-family: "Roboto";
+    src: url("/fonts/Roboto.ttf");
+  }
+
+@font-face {
+    font-family: "Raleway";
+    src: url("/fonts/Raleway.ttf");
+  }
