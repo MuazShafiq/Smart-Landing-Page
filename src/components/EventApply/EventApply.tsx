@@ -1,6 +1,6 @@
 function EventApply() {
     return (
-        <section data-name='event=apply' className='flex flex-col mt-[4rem] ml-[9rem] mr-[50rem]  transform scale-[79.5%]'>
+        <section id='event-apply' className='flex flex-col mt-[4rem] ml-[9rem] mr-[50rem]  transform scale-[79.5%]'>
             <h4 className='text-[#2E2E2E] font-montserrat text-4xl font-bold'>
                 Hurry Up! Get Your Event Pass
             </h4>

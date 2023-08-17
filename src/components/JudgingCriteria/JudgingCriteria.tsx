@@ -1,6 +1,6 @@
 function JudgingCriteria() {
     return (
-        <section data-name="judging-criteria" className='-mt-[1.75rem] flex flex-col bg-[#E9F5C2] items-center pt-[3.87rem] pb-[6.19rem] gap-14 -z-10 transform scale-[79.5%] min-w-[125.8%]'>
+        <section id="judging-criteria" className='-mt-[1.75rem] flex flex-col bg-[#E9F5C2] items-center pt-[3.87rem] pb-[6.19rem] gap-14 -z-10 transform scale-[79.5%] min-w-[125.8%]'>
             <h5 className='text-[#2E2E2E] font-youlit text-[2.5rem] uppercase text-center'>
                 Judging Criteria
             </h5>

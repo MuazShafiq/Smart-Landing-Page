@@ -1,6 +1,6 @@
 function DesignCriteria() {
     return (
-        <section data-name='design-criteria' className='-mt-[3rem] flex justify-center px-10 items-center  transform scale-[79.5%]'>
+        <section id='design-criteria' className='-mt-[3rem] flex justify-center px-10 items-center  transform scale-[79.5%]'>
             <div data-name='about-music' className='flex justify-center items-center gap-[6.81rem]'>
                 <div data-name='content' className='justify-center flex flex-col gap-9 max-w-[35rem]'>
                     <h5 className='text-[#2E2E2E] font-youlit text-[2.5rem] uppercase '>

@@ -1,6 +1,6 @@
 function Submission() {
     return (
-        <section data-name='submission' className='-mt-[2.75rem] mx-44 flex gap-[4.38rem] justify-center items-center  transform scale-[79.5%]'>
+        <section id='submission' className='-mt-[2.75rem] mx-44 flex gap-[4.38rem] justify-center items-center  transform scale-[79.5%]'>
             <img src="/images/submissionImg.png" alt="decoration" className='' />
             <div className='flex flex-col gap-8 justify-center pr-12'>
                 <h5 className='text-[#2E2E2E] font-youlit text-[2.5rem] uppercase'>

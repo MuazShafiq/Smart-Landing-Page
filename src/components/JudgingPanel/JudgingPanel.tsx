@@ -1,6 +1,6 @@
 function JudgingPanel() {
     return (
-        <section data-name='judging-panel' className='-mt-[1.75rem] flex flex-col items-center mx-72  transform scale-[79.5%] -z-10'>
+        <section id='judging-panel' className='-mt-[1.75rem] flex flex-col items-center mx-72  transform scale-[79.5%] -z-10'>
             <h5 className='text-[#2E2E2E] font-youlit text-[2.5rem] uppercase text-center'>
                 The Judging Panel
             </h5>

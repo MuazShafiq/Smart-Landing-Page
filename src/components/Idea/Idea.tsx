@@ -1,6 +1,6 @@
 function Idea() {
     return (
-        <section data-name='idea' className='mt-[3.13rem] mx-[11.25rem] flex gap-[4.38rem] justify-center items-center  transform scale-[79.5%]'>
+        <section id='idea' className='mt-[3.13rem] mx-[11.25rem] flex gap-[4.38rem] justify-center items-center  transform scale-[79.5%]'>
             <img src="/images/ideaImg.png" alt="decoration" className='' />
             <div className='flex flex-col gap-8 justify-center'>
                 <h5 className='text-[#2E2E2E] font-youlit text-[2.5rem] uppercase'>

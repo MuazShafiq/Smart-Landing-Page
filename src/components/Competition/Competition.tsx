@@ -1,6 +1,6 @@
 function Header() {
     return (
-        <section data-name='competition' className='flex flex-col items-center gap-11 transform scale-[79.5%] -mt-5'>
+        <section id='competition' className='flex flex-col items-center gap-11 transform scale-[79.5%] -mt-5'>
             <h5 className='text-[#2E2E2E] font-youlit text-[2.5rem] leading[3.25rem] uppercase text-center px-80'>
                 The competition is open to individuals, teams, and organizations, including
             </h5>

@@ -1,6 +1,6 @@
 function Prizes() {
     return (
-        <section data-name='prizes' className='-mt-[2rem] flex flex-col justify-center items-center mx-40  transform scale-[79.5%]'>
+        <section id='prizes' className='-mt-[2rem] flex flex-col justify-center items-center mx-40  transform scale-[79.5%]'>
             <div className='min-w-full flex flex-col bg-[#E9F5C2] justify-center items-center rounded-[0.9375rem]'>
                 <div className='flex flex-col justify-center items-center'>
                     <div className='mt-[2.94rem]'>

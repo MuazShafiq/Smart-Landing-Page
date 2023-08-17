@@ -1,6 +1,6 @@
 function Hero() {
     return (
-        <section data-name='hero' className="mt-[0.7rem]">
+        <section id='hero' className="mt-[0.7rem]">
             <div className="container mx-auto flex flex-col justify-center items-center transform scale-[79.5%]">
                 <div className=''>
                     <div className='container mx-auto'>
