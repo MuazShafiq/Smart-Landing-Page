@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 import Hero from '../Hero/Hero'
 import Pattern from '../Pattern/Pattern'
-import Idea from '..//Idea/Idea'
+import Idea from '../Idea/Idea'
 import Competition from '../Competition/Competition'
 import DesignCriteria from '../DesignCriteria/DesignCriteria'
 import Submission from '../Submission/Submission'

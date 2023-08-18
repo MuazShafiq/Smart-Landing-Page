@@ -1,14 +1,26 @@
 import React, { Component } from 'react'
+import EligibleGroups from './EligibleGroups'
 
-class Header extends Component {
-    render() : React.ReactNode {
+class Competition extends Component {
+
+    
+    
+    render(): React.ReactNode {
         return (
             <section id='competition' className='flex flex-col items-center gap-11 transform scale-[79.5%] -mt-5'>
                 <h5 className='text-[#2E2E2E] font-youlit text-[2.5rem] leading[3.25rem] uppercase text-center px-80'>
                     The competition is open to individuals, teams, and organizations, including
                 </h5>
                 <div className='flex gap-4'>
-                    <div className='relative'>
+                    <EligibleGroups
+                        eligible={{imgSrc:"images/comp1.png",
+                        imgAlt:"Backgorund Image",
+                        imgStyle:"w-full h-auto",
+                        pDivStyle:"absolute top-[10.5rem] left-[1.25rem] w-full h-full flex",
+                        pStyle:"text-white font-roboto text-[1.375rem] font-bold",
+                        pText:"Students from universities and colleges"}}
+                    />
+                    {/* <div className='relative'>
                         <img src="images/comp1.png" alt="Backgorund Image" className='w-full h-auto' />
                         <div className='absolute top-[10.5rem] left-[1.25rem] w-full h-full flex'>
                             <p className='text-white font-roboto text-[1.375rem] font-bold'>
@@ -39,11 +51,11 @@ class Header extends Component {
                                 Design firms and professionals
                             </p>
                         </div>
-                    </div>
+                    </div> */}
                 </div>
             </section>
         )
     }
 }
 
-export default Header
+export default Competition
