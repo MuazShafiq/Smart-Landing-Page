@@ -1,3 +1,4 @@
+import React, { Component } from 'react'
 import Hero from '../Hero/Hero'
 import Pattern from '../Pattern/Pattern'
 import Idea from '..//Idea/Idea'
@@ -9,21 +10,23 @@ import JudgingPanel from '../JudgingPanel/JudgingPanel'
 import JudgingCriteria from '../JudgingCriteria/JudgingCriteria'
 import EventApply from '../EventApply/EventApply'
 
-function Main() {
-    return (
-        <>
-        <Hero />
-        <Pattern />
-        <Idea />
-        <Competition />
-        <DesignCriteria />
-        <Submission />
-        <Prizes />
-        <JudgingPanel />
-        <JudgingCriteria />
-        <EventApply />
-        </>
-    )
+class Main extends Component {
+    render(): React.ReactNode {
+        return (
+            <>
+                <Hero />
+                <Pattern />
+                <Idea />
+                <Competition />
+                <DesignCriteria />
+                <Submission />
+                <Prizes />
+                <JudgingPanel />
+                <JudgingCriteria />
+                <EventApply />
+            </>
+        )
+    }
 }
 
 export default Main
