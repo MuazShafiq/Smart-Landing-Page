@@ -7,7 +7,7 @@ import Footer from './components/Footer/Footer'
 
 class App extends Component {
 
-  render() {
+  render(): React.ReactNode {
     return (
       <div className='flex flex-col items-center'>
         <Background />
